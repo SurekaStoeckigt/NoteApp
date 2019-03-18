@@ -9,14 +9,13 @@
 })(this);
 
 (function(exports) {
-  function exclaimTest() {
+  function textTest() {
     var text = "text for test";
     var note = new NoteApp(text);
 
 
-    // note.exclaim(text);
     assert.isTrue(note.text === text);
 
   };
-  exclaimTest();
+  textTest();
 })(this);
