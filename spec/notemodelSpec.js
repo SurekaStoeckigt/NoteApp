@@ -2,9 +2,8 @@
   function testNoteAddsBlankText() {
     var noteapp = new NoteApp();
 
-    if (noteapp !== null) {
-      throw new Error("noteapp is not defined")
-    }
+    assert.isTrue(noteapp !== null);
+
   };
   testNoteAddsBlankText();
 })(this);
